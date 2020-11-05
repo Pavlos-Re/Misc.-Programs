@@ -2,20 +2,20 @@ print("Hello and welcome to the Simple Python Calculator!\n")
 
 num1 = int(input("Give me a number.\n"))
 num2 = int(input("Give me a second number.\n"))
-opperator = input("What opperation do you want to do?\n")
+operator = input("What operation do you want to do?\n")
 
-if opperator == "*":
+if operator == "*":
     result = (num1 * num2)
-elif opperator == "/":
+elif operator == "/":
     result = (num1 / num2)
-elif opperator == "+":
+elif operator == "+":
     result = (num1 + num2)
-elif opperator == "-":
+elif operator == "-":
     result = (num1 - num2)
-elif opperator == "^":
+elif operator == "^":
     result = pow(num1, num2)
 else:
-    print("The opperator you gave isn't correct.")
+    print("The operator you gave isn't correct.")
     exit(0)
 
 print("The result is: " + str(result))
